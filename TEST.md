@@ -54,5 +54,46 @@ s = 2 \times 2.67 \times \sin\left(\frac{\pi}{6}\right) = 5.34 \times 0.5 = 2.67
 
 **答え：18.5cm²**
 
+# 〇出力（マークダウン）
+正六角形の半径が2.67cmであるとき、その面積を求めます。
+
+まず、正六角形の面積は以下の公式で計算できます：
+
+$$
+\text{面積} = \frac{3\sqrt{3}}{2} \times \text{辺の長さ}^2
+$$
+
+しかし、半径（中心から頂点までの距離）が与えられているので、辺の長さを求める必要があります。正六角形では、辺の長さ \( s \) は次のようになります：
+
+$$
+s = 2R \times \sin \left( \frac{\pi}{n} \right)
+$$
+
+ここで、 \( R = 2.67 \text{cm} \), \( n = 6 \) です。よって、
+
+$$
+s = 2 \times 2.67 \times \sin \left( \frac{\pi}{6} \right) = 5.34 \times 0.5 = 2.67 \text{cm}
+$$
+
+次に、面積を計算します：
+
+$$
+\text{面積} = \frac{3\sqrt{3}}{2} \times (2.67)^2
+$$
+
+$$
+(2.67)^2 = 7.1289
+$$
+
+$$
+\text{面積} \approx \frac{3\sqrt{3}}{2} \times 7.1289 \approx \frac{3 \times 1.73205}{2} \times 7.1289
+$$
+
+$$
+\text{面積} \approx \frac{5.19615}{2} \times 7.1289 \approx 2.59808 \times 7.1289 \approx 18.5 \text{cm}^2
+$$
+
+**答え：18.5cm²**
+
 # 〇画面HC
 ![image](https://github.com/user-attachments/assets/2e6ff4b8-efe0-44a4-9abd-9fbadee2c151)
